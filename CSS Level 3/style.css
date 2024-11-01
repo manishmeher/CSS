@@ -1,0 +1,83 @@
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+    /* 2 times of parent (box1) font size (em) */
+    width: 5em;
+     /* 5 times of child element it self (width) (em) */
+    /* width: 5rem; */
+    /* rem is called (font size of the root element) root element means HTML font size */
+    /* height: 1vh; viewport height */
+    /* width: 1vw; viewport width */
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#nox1 {
+    position: static;
+    background-color: red;
+}
+
+#nox2 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+    background-color: green;
+}
+
+#nox3 {
+    position: absolute;
+    top: 500px;
+    left: 20px;
+    background-color: aqua;
+
+}
+
+#nox4 {
+    position: fixed;
+    top: 50px;
+    z-index: -3;
+    background-color: pink;
+}
+
+/* #nox5 {
+    position: sticky;
+    top: 20px;
+    background-color: blue;
+} */
+
+#photo1 {
+    background-color: pink;
+    background-image: url("BMW_photo.jpg");
+    background-size: cover;
+}
+
+#photo2 {
+    background-color: aqua;
+    background-image: url("Audi_photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#photo3 {
+    background-color: chocolate;
+    background-image: url("Car_photo.jpg");
+    /* background-size: cover; */
+    background-size: auto;
+}

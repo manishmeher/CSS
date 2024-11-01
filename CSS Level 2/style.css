@@ -1,0 +1,41 @@
+h1 {
+    height: 50px;
+    width: 200px;
+    background-color: aquamarine;
+    /*border-width: 3px;
+    border-style: dashed;
+    border-color: black;*/
+    border: 3px dashed black;
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    display: inline-block;
+}
+#one {
+    background-color: blue;
+}
+
+#two {
+    background-color: green;
+    visibility: hidden;
+}
+
+#three {
+    background-color: red;
+}
+
+#box1 {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#box2 {
+    background-color: rgba(0, 0, 255, 0.75);
+}
+
+#box3 {
+    background-color: rgba(0, 0, 255, 1);
+}

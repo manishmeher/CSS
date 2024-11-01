@@ -1,0 +1,77 @@
+div {
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
+    border: 2px solid black;
+    background-color: aquamarine;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    /* transition: all 2s ease-in 1s; */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transform: rotate(360deg); */
+    /* rotate: z 0deg; */
+    /* transform: scale(2); */
+    /* transform: scale(1,2);
+    transform: scaleY(2);
+    transform: scaleX(2); */
+    /* animation-name: colorAnimat;
+    animation-duration: 2s; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colorAnimat 2s ease-in 1s infinite alternate;
+}
+       
+@keyframes colorAnimat {
+    /*from*/ 0% {left: 0px;
+    background-color: yellow;
+}   
+    30% { background-color:deeppink;
+    }
+    50% { background-color: blue;
+    }
+    80% {background-color: green;
+    }
+    /*to*/ 100% {left: 200px;
+    background-color: red;
+    color: white;
+}
+}
+
+/*Pseudo Classes*/
+div:hover {
+    /* background-color: red;
+    color: white;
+    font-size:20px;
+    transform: scale(2); */
+    /* rotate: Z 180deg; */
+    /* transform: translate(50px); */
+    /* transform: translate(100px,80px);
+    transform: translateX(-50px);
+    transform: translateY(50px); */
+    /* transform: skew(30deg); */
+    
+}
+
+div:active {
+    /* background-color: pink; */
+}
+/* 
+input:focus {
+    background-color: lightblue;
+    color: red;
+}
+
+label:focus-within {
+    font-weight: bold;
+}
+
+input:focus-visible {
+    outline: 2px solid blue;
+    
+} */

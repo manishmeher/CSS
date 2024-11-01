@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#nevbar {
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+button {
+    background-color: #f08804;
+    color: white;
+}
+
+a {
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.contentbox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    display: inline-block;
+}
+
+#content {
+    height: 550px;
+}
+
+footer {
+    background-color: #0f1111;
+    color:white;
+    text-align: center;
+}
+

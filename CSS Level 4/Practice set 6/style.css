@@ -1,0 +1,31 @@
+.nevbar {
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    background-color: yellow;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    /* align-self: flex-start; */
+}

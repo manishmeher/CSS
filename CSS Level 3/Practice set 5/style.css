@@ -1,0 +1,13 @@
+div {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-image: url("Love_Nature.jpg");
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+    border-radius: 10%;
+
+}
+
+
