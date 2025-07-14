@@ -44,7 +44,7 @@ div {
 }
 
 /*Pseudo Classes*/
-div:hover {
+/* div:hover { */
     /* background-color: red;
     color: white;
     font-size:20px;
@@ -56,11 +56,11 @@ div:hover {
     transform: translateY(50px); */
     /* transform: skew(30deg); */
     
-}
+/* } */
 
-div:active {
-    /* background-color: pink; */
-}
+/* div:active {
+    background-color: pink; */
+/* } */
 /* 
 input:focus {
     background-color: lightblue;
